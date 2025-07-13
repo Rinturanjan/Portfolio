@@ -167,7 +167,7 @@ const Contact = () => {
                     download
                   >
                     <Download className="w-5 h-5 mr-2" />
-                    Download My Résumé
+                    Download My Resume
                   </a>
                 </Button>
 
