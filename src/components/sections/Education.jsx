@@ -105,7 +105,7 @@ const Education = () => {
                 <div className="space-y-4">
                   <div className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
                     <Calendar className="w-4 h-4" />
-                    <span className="text-sm">2018 - 2021</span>
+                    <span className="text-sm">2022 - 2025</span>
                   </div>
 
                   <div className="flex items-center gap-2 text-green-600 dark:text-green-400">

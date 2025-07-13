@@ -80,18 +80,10 @@ const About = () => {
               className="prose prose-lg dark:prose-invert max-w-none"
             >
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                I'm Jyoti Ranjan Rout, a web developer with experience in HTML, CSS, JavaScript, ReactJS,
-                Tailwind CSS, GSAP, and handling APIs. I have completed my Bachelor of Computer
-                Applications (BCA) from Mangalmay Institute of Management and Technology. I have worked
-                on the EcoMart website, where I applied my skills to create a user-friendly and dynamic web
-                application.
+                Web developer skilled in HTML/CSS, JavaScript, React, Tailwind, GSAP, and API integration. BCA graduate (Mangalmay Group of Institute). 
               </p>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                I enjoy building interactive web applications, integrating APIs for seamless data
-                handling, and continuously improving my expertise in front-end and full-stack development.
-                Additionally, I have a foundational understanding of backend technologies like Node.js,
-                Express.js, and Mongoose, allowing me to work with databases and build efficient server-side
-                applications.
+                Built the EcoMart classified site—responsive UI, dynamic data flow. Comfortable with Node.js, Express, and Mongoose for basic backend work. I focus on crafting interactive, user-friendly apps and steadily expanding my full-stack toolkit.
               </p>
             </motion.div>
 

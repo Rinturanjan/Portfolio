@@ -16,7 +16,7 @@ const Projects = () => {
     {
       title: 'EcoMart Web App',
       description: 'A full-featured e-commerce platform with user authentication, payment integration, and admin dashboard.',
-      image: 'Modern e-commerce website interface with product listings',
+      image: '/images/EcoMartImage.jpg',
       technologies: ['HTML5', 'CSS3', 'Tailwind CSS', 'JavaScript'],
       liveUrl: 'https://projects-zeta-woad.vercel.app/',
       githubUrl: 'https://github.com/Rinturanjan/error404ReimagineRound1',
@@ -26,7 +26,7 @@ const Projects = () => {
       title: 'TODO Web App',
       description: 'A collaborative task management application. Implemented core task functionalities including add, display, and delete features through effective DOM manipulation and Local Storage integration.',
       technologies: ['React', 'JavaScript', 'Node.js', 'Tailwind CSS'],
-      image: 'Clean task management dashboard with kanban boards and team collaboration',
+      image: '/images/TODOIMAGE.jpg',
       liveUrl: 'https://todolist-sand-one.vercel.app/',
       githubUrl: 'https://github.com/Rinturanjan/TODO-LIST',
       featured: true,
@@ -35,7 +35,7 @@ const Projects = () => {
       title: 'HotPlates',
       description: 'A responsive Food Recipe Web App featuring dynamic recipe search, filters, and detailed views.',
       technologies: ['React', 'OpenWeather API', 'Chart.js', 'Tailwind CSS'],
-      image: 'Recipe app interface',
+      image: '/images/HOTPLATESIMAGE.jpg',
       liveUrl: 'https://bit.ly/HOTPLATES',
       githubUrl: 'https://github.com/Rinturanjan/Food_App_HotPlates',
       featured: false,
@@ -44,16 +44,16 @@ const Projects = () => {
       title: 'Portfolio Website',
       description: 'A modern portfolio website with smooth animations and responsive design.',
       technologies: ['React', 'GSAP', 'Tailwind CSS', 'Framer Motion'],
-      image: 'Portfolio website design',
+      image: '/images/PortfolioImage.jpg',
       liveUrl: '#',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/Rinturanjan/Portfolio',
       featured: false,
     },
     {
       title: 'Calculator',
       description: 'A responsive calculator for basic arithmetic operations with real-time input and clean UI.',
       technologies: ['React', 'Node.js', 'Tailwind CSS', 'HTML5', 'CSS3'],
-      image: 'Calculator interface',
+      image: 'images/CalculatorImage.jpg',
       liveUrl: 'https://calculatorcom-tau.vercel.app/',
       githubUrl: 'https://github.com/Rinturanjan/CalculatorApp',
       featured: false,
@@ -126,10 +126,10 @@ const Projects = () => {
             >
               {/* Project Image */}
               <div className="relative overflow-hidden h-48">
-                <img  
+                <img
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                  src="https://images.unsplash.com/photo-1595872018818-97555653a011"
+                  src={project.image}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 
