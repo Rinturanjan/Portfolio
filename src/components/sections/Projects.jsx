@@ -45,7 +45,7 @@ const Projects = () => {
       description: 'A modern portfolio website with smooth animations and responsive design.',
       technologies: ['React', 'GSAP', 'Tailwind CSS', 'Framer Motion'],
       image: '/images/PortfolioImage.jpg',
-      liveUrl: '#',
+      liveUrl: 'https://portfolio-pi-five-p4faxx9ekh.vercel.app/',
       githubUrl: 'https://github.com/Rinturanjan/Portfolio',
       featured: false,
     },
