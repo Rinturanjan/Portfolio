@@ -13,13 +13,13 @@ const Skills = () => {
   const skills = [
     { name: 'HTML5', level: 95, icon: '🌐' },
     { name: 'CSS3', level: 90, icon: '🎨' },
-    { name: 'JavaScript', level: 88, icon: '⚡' },
-    { name: 'React.JS', level: 92, icon: '⚛️' },
-    { name: 'Tailwind CSS', level: 85, icon: '💨' },
-    { name: 'GSAP', level: 75, icon: '🎭' },
-    { name: 'Node.js', level: 80, icon: '🟢' },
-    { name: 'Express.JS', level: 78, icon: '🚀' },
-    { name: 'API', level: 88, icon: '🚀' },
+    { name: 'JavaScript', level: 90, icon: '⚡' },
+    { name: 'Tailwind CSS', level: 98, icon: '💨' },
+    { name: 'MongoDB', level: 92, icon: '🎭' },
+    { name: 'Express.JS', level: 98, icon: '🚀' },
+    { name: 'React.JS', level: 99, icon: '⚛️' },
+    { name: 'Node.js', level: 100, icon: '🟢' },
+    { name: 'API', level: 91, icon: '🚀' },
   ];
 
   useEffect(() => {

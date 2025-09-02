@@ -193,7 +193,7 @@ const Contact = () => {
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2">
-                    1
+                    36
                   </div>
                   <div className="text-gray-600 dark:text-gray-400 text-sm">
                     Month Experience

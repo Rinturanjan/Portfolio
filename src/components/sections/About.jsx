@@ -69,7 +69,7 @@ const About = () => {
                 <span className="gradient-text">Jyoti Ranjan Rout</span>
               </h1>
               <h2 className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-6">
-                Frontend Developer || React.JS Developer
+                MERN Stack Developer
               </h2>
             </motion.div>
 
@@ -80,10 +80,12 @@ const About = () => {
               className="prose prose-lg dark:prose-invert max-w-none"
             >
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                Web developer skilled in HTML/CSS, JavaScript, React, Tailwind, GSAP, and API integration. BCA graduate (Mangalmay Group of Institute). 
+                MERN Stack Developer skilled in HTML/CSS, JavaScript, React, Tailwind CSS, GSAP, and API integration.
+                BCA graduate (Mangalmay Group of Institute). 
               </p>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                Built the EcoMart classified site—responsive UI, dynamic data flow. Comfortable with Node.js, Express, and Mongoose for basic backend work. I focus on crafting interactive, user-friendly apps and steadily expanding my full-stack toolkit.
+                Built the EcoMart classified site—responsive UI, dynamic data handling, and seamless frontend-backend integration.
+                Proficient in MongoDB, Express.js, React, and Node.js for full-stack development, with a focus on crafting interactive, user-friendly applications and continually expanding my development toolkit.
               </p>
             </motion.div>
 
@@ -93,6 +95,9 @@ const About = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="flex flex-wrap gap-4"
             >
+              <div className="bg-red-100 dark:bg-red-900/30 px-4 py-2 rounded-full">
+                <span className="text-Red-800 dark:text-red-300 font-medium">MERN Stack Developer</span>
+              </div>
               <div className="bg-blue-100 dark:bg-blue-900/30 px-4 py-2 rounded-full">
                 <span className="text-blue-800 dark:text-blue-300 font-medium">React Developer</span>
               </div>
