@@ -58,6 +58,15 @@ const Projects = () => {
       githubUrl: 'https://github.com/Rinturanjan/CalculatorApp',
       featured: false,
     },
+    {
+      title: 'Sanitary Wares',
+      description: 'A Sanitary Wares online store, where people can purchase plumbing products with good price.',
+      technologies: ['MongoDB', 'Express', 'React', 'Node'],
+      image: '/images/SanitaryWares.png',
+      liveUrl: 'https://sanitarywares-frontend.onrender.com',
+      githubUrl: 'https://github.com/Rinturanjan/Sanitarywares-frontend',
+      featured: false
+    }
   ];
 
   useEffect(() => {

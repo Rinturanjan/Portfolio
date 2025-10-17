@@ -128,7 +128,7 @@ const Skills = () => {
           </h3>
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              'Git', 'GitHub', 'VS Code', 'Figma', 'Postman', 'Netlify', 'Vercel', 'Firebase', 'AI', 'nodemon', 'Morgan', 'Winston'
+              'Git', 'GitHub', 'VS Code', 'Figma', 'Postman', 'Nodemon', 'Netlify', 'Render', 'Vercel', 'Firebase', 'AI', 'nodemon', 'Morgan', 'Winston', 'MongoDB Atlas'
             ].map((tech, index) => (
               <motion.span
                 key={index}
