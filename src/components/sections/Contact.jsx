@@ -163,7 +163,7 @@ const Contact = () => {
                 {/* Resume download link */}
                 <Button asChild className="w-full bg-white text-blue-600 hover:bg-gray-100 font-semibold">
                   <a
-                    href="/Jyoti_ranjan_CV.pdf"
+                    href="/JyotiRanjanCV-MERN-2025.pdf"
                     download
                   >
                     <Download className="w-5 h-5 mr-2" />
