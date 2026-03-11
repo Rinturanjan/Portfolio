@@ -69,7 +69,7 @@ const About = () => {
                 <span className="gradient-text">Jyoti Ranjan Rout</span>
               </h1>
               <h2 className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-6">
-                MERN Stack Developer
+                MERN Stack & UI/UX Developer
               </h2>
             </motion.div>
 
@@ -112,6 +112,9 @@ const About = () => {
               </div>
               <div className="bg-sky-100 dark:bg-blue-900/30 px-4 py-2 rounded-full">
                 <span className="text-sky-800 dark:text-sky-300 font-medium">Handling APIs</span>
+              </div>
+              <div className="bg-orange-100 dark:bg-orange-900/30 px-4 py-2 rounded-full">
+                <span className="text-orange-800 dark:text-orange-300 font-medium">Figma</span>
               </div>
             </motion.div>
           </div>

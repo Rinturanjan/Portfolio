@@ -266,7 +266,7 @@ const Education = () => {
                 <ul className="space-y-2 text-gray-700 dark:text-gray-300">
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                    <span className="text-sm">--------------------------------------</span>
+                    <span className="text-sm"> AWS Cloud Technical Essentials - Coursera</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
