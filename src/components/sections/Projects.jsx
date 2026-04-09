@@ -14,6 +14,24 @@ const Projects = () => {
 
   const projects = [
     {
+      title: 'Sanitary Wares',
+      description: 'A Sanitary Wares online store, where people can purchase plumbing products with good price.',
+      technologies: ['MongoDB', 'Express', 'React', 'Node'],
+      image: '/images/SanitaryWares.png',
+      liveUrl: 'https://sanitarywares-frontend.onrender.com',
+      githubUrl: 'https://github.com/Rinturanjan/Sanitarywares-frontend',
+      featured: false
+    },
+    {
+      title: 'HotPlates',
+      description: 'A responsive Food Recipe Web App featuring dynamic recipe search, filters, and detailed views.',
+      technologies: ['React', 'OpenWeather API', 'Chart.js', 'Tailwind CSS'],
+      image: '/images/HOTPLATESIMAGE.jpg',
+      liveUrl: 'https://bit.ly/HOTPLATES',
+      githubUrl: 'https://github.com/Rinturanjan/Food_App_HotPlates',
+      featured: false,
+    },
+    {
       title: 'EcoMart Web App',
       description: 'A full-featured e-commerce platform with user authentication, payment integration, and admin dashboard.',
       image: '/images/EcoMartImage.jpg',
@@ -30,15 +48,6 @@ const Projects = () => {
       liveUrl: 'https://todolist-sand-one.vercel.app/',
       githubUrl: 'https://github.com/Rinturanjan/TODO-LIST',
       featured: true,
-    },
-    {
-      title: 'HotPlates',
-      description: 'A responsive Food Recipe Web App featuring dynamic recipe search, filters, and detailed views.',
-      technologies: ['React', 'OpenWeather API', 'Chart.js', 'Tailwind CSS'],
-      image: '/images/HOTPLATESIMAGE.jpg',
-      liveUrl: 'https://bit.ly/HOTPLATES',
-      githubUrl: 'https://github.com/Rinturanjan/Food_App_HotPlates',
-      featured: false,
     },
     {
       title: 'Portfolio Website',
@@ -58,15 +67,7 @@ const Projects = () => {
       githubUrl: 'https://github.com/Rinturanjan/CalculatorApp',
       featured: false,
     },
-    {
-      title: 'Sanitary Wares',
-      description: 'A Sanitary Wares online store, where people can purchase plumbing products with good price.',
-      technologies: ['MongoDB', 'Express', 'React', 'Node'],
-      image: '/images/SanitaryWares.png',
-      liveUrl: 'https://sanitarywares-frontend.onrender.com',
-      githubUrl: 'https://github.com/Rinturanjan/Sanitarywares-frontend',
-      featured: false
-    }
+    
   ];
 
   useEffect(() => {
